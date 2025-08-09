@@ -19,25 +19,6 @@ const config: StorybookConfig = {
     "name": "@storybook/nextjs-vite",
     "options": {}
   },
-  // async viteFinal(config, options) {
-  //   // Add your configuration here
-  //   // フォントの初期化問題を解決するため
-  //   config.define = {
-  //     ...config.define,
-  //     'process.env.__NEXT_FONT_OPTIMIZATION': 'false',
-  //   };
-  //   // フォントの参照を無効化
-  //   config.resolve = {
-  //     ...config.resolve,
-  //     alias: {
-  //       ...config.resolve?.alias,
-  //       '@next/font': false,
-  //       'next/font': false,
-  //     },
-  //   };
-  //
-  //   return config;
-  // },
   "staticDirs": [
     "../public"
   ]
